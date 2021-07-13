@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#04C8E1"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    android:id="@+id/customtoolbar"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:gravity="right"
+        android:textColor="@color/white"
+        style="@style/Toolbar.TitleText"/>
+
+
+</Toolbar>
